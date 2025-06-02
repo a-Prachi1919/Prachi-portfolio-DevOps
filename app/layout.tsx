@@ -10,55 +10,43 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your_name — DevOps Engineer",
+  title: "Prachi .a — DevOps Engineer",
   description:
-    "A DevOps Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "A DevOps Engineer passionate about building scalable cloud infrastructure and seamless CI/CD pipelines. Skilled in automation, monitoring, and infrastructure as code, I enable fast, secure, and reliable software delivery.",
   keywords: [
     "devops",
-    "frontend",
-    "react",
-    "tech",
-    "creative developer",
-    "UI development",
-    "frontend engineer",
-    "developer portfolio",
-    "creative development",
-    "nigeria",
-    "software",
-    "software developer",
-    "software engineer",
+    "cloud",
+    "automation",
+    "infrastructure",
+    "ci/cd",
+    "terraform",
+    "kubernetes",
     "portfolio",
+    "prachi a",
+    "software delivery",
   ],
   openGraph: {
-    title: "Your_name — DevOps Engineer",
+    title: "Prachi .a — DevOps Engineer",
     description:
-      "DevOps Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.your_name.me",
-    siteName: "www.your_name.me",
+      "DevOps Engineer skilled in cloud infrastructure, automation, and CI/CD pipelines. Dedicated to delivering efficient and secure software solutions.",
+    url: "https://github.com/a-Prachi1919/Prachi-portfolio-DevOps",
+    siteName: "Prachi .a Portfolio",
     images: [
       {
         url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
         width: 1200,
         height: 630,
-        alt: "Your_name — DevOps Engineer",
+        alt: "Prachi .a — DevOps Engineer",
       },
       {
         url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
         width: 800,
         height: 800,
-        alt: "Your_name — DevOps Engineer",
+        alt: "Prachi .a — DevOps Engineer",
       },
     ],
     locale: "en-US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Your_name — DevOps Engineer",
-    description:
-      "DevOps Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@iemafzalhassan",
-    images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
   },
   robots: {
     index: true,
@@ -94,3 +82,4 @@ export default function RootLayout({
     </html>
   );
 }
+
